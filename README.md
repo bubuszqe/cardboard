@@ -21,11 +21,11 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#installation">Installalllllllllllllllltion</a></li>
       </ul>
     </li>
       <li>
-          <a href="#architecture">Architecture</a>
+          <a href="#architecture">Archuhuhuhuhuhuhuhuhuhuhuhre</a>
         </li>
   </ol>
 </details>
