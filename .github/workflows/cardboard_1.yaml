@@ -1,0 +1,24 @@
+name: Creating and updating cards
+
+on: workflow_dispatch
+
+jobs:
+  functional-testing:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        uses: cypress-io/github-action@v2
+        with:
+          runTests: false
+      - run: npm run test
+
+      - name: e2e run
+        uses: cypress-io/github-action@v2
+        with:
+          spec: cypress/integration/cardboard_adding_editing_cards.spec.js
+          install: false
+          build: npm run build
+          start: npm start

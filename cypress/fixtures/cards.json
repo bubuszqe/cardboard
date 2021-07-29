@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "content": "Today was a good day",
+    "createdAt": "2021-07-22T13:37:17.251Z"
+  },
+  {
+    "id": 2,
+    "content": "Cardboard is a great web application",
+    "createdAt": "2021-07-23T13:37:17.251Z"
+  },
+  {
+    "id": 3,
+    "content": "",
+    "createdAt": ""
+  }
+]
